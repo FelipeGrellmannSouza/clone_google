@@ -7,10 +7,24 @@
     <title>Google</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="nav_links">
+                <a href="">Gmail</a>
+                <a href="">Imagens</a>
+            </div>
+            <div class="nav_img">
+                <a href=""><img id="googleapps" src="assets/img/googleappss.png"></a>
+                <a href=""><img id="usericon" src="https://thispersondoesnotexist.com"></a>
+            </div>
+        </nav>
+    </header>
     <main>
         <div class="container">
-            <img id="logo" src="assets/img/googlelogo_light_color.png" alt="logo do google branco">
-            <form action="" method="get">
+            <div class="divlogo">
+                <img id="logo" src="assets/img/googlelogo_light_color.png" alt="logo do google branco">
+            </div>
+            <form method="get" action="assets/html/pesquisa.html">
                 <div class="input_div">
                     <img id="lupa" src="assets/img/lupa.png" alt="">
                     <input type="text" #pesquisa>
@@ -18,13 +32,33 @@
                     <img id="camera" src="assets/img/camera.png" alt="">
                 </div> 
             </form>
+                
+            </div>
             <div class="buttons">
-                <button>Pesquisa Google</button> 
-                <button>Estou com Sorte</button>
+                <a href="assets/html/pesquisa.html"><button>Pesquisa Google</button></a>
+                <a href="assets/html/pesquisa.html"><button>Estou com Sorte</button></a>
             </div>
         </div>
     </main>
-
-    
+    <div class="espaco">
+        
+    </div>
+    <footer>
+        <div class="footer_sup">Brasil</div>
+        <div class="footer_line"></div>
+        <div class="footer_sub">
+            <div class="footersub_start">
+                <a href="">Sobre</a>
+                <a href="">Publicidade</a>  
+                <a href="">Negócios</a> 
+                <a href="">Como funciona a Pesquisa</a>
+            </div>
+            <div class="footersub_end">
+                <a href="">Privacidade</a>
+                <a href="">Termos</a>
+                <a href="">Configurações</a>                
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
