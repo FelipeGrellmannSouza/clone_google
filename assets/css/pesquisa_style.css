@@ -5,6 +5,8 @@
 }
 body {
     background-color: #1f1f1f;
+
+    margin-bottom: 100px;
 }
 
 
@@ -193,6 +195,11 @@ textarea:focus, input:focus, select:focus {
 }
 
 
+
+
+
+
+
 /*                           Inicio                            */
 main {
     margin-left: 230px;
@@ -203,12 +210,13 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    color: #fff;
+    color: #ffeeda;
 }
 
 .inicio-content {
     display: flex;
     margin-top: 24px;
+    width: fit-content;
 }
 
 .titulo {
@@ -254,7 +262,6 @@ main {
     border-radius: 0 0 20px 0;
 }
 
-
 .info-card {
     display: flex;
     margin-left: 15px;
@@ -284,7 +291,7 @@ main {
 .info-card-text a {
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #ffeeda;
     text-decoration: none;
     margin-bottom: 10px;
 }
@@ -337,4 +344,195 @@ iframe {
     border-radius: 20px;
 }
 
+.horizontal-line {
+    height: 1px;
+    margin: 24px 0 24px 0;
+    width: 1089px;
+    background-color: #685d4d;
+}
 
+
+
+
+
+
+/*                  Conteudo Principal                      */
+.container {
+    display: flex;
+    color: #BDC1C6;
+}
+
+.container a {
+    /* color: #99C3FF; */
+    text-decoration: none;
+}
+
+.container a:visited {
+    /* color: #C58AF9; */
+}
+
+.results {
+    width: 652px;
+}
+
+
+
+
+
+/* wikipedia */
+.wikipedia {
+    display: flex;
+    width: 393px;
+}
+
+.vertical-line {
+    background-color: #333;
+    margin-right: 20px;
+    height: 570px;
+    padding: 1px;
+}
+
+.wiki-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.wiki-title {
+    color: #EEE;
+    font-size: 18px;
+}
+
+.wiki-text {
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.wiki-text a {
+    color: #99C3FF;
+    text-decoration: none;
+}
+
+.wiki-text a:visited {
+    color: #C58AF9;
+}
+
+.wiki-info {
+    padding-top: 8px;
+    padding-bottom: 24px;
+    font-size: 14px;
+}
+
+.info { 
+    padding-top: 8px;
+}
+
+.info a {
+    color: #99C3FF;
+}
+
+.info a:visited { 
+    color: #C58AF9;
+
+}
+
+.horizontal-line-wiki { 
+    height: 1px;
+    background-color: #333;
+}
+
+.related {
+    padding-top: 20px;
+    width: 396px;
+    height: 187px;
+}
+
+.related-title {
+    size: 18px;
+    color: #E8EAED;
+}
+
+.related-examples {
+    display: flex;
+    justify-content: space-between;
+    width: 384px;
+    height: 119px;
+    margin: 16px 0px;
+}
+
+.dog {
+    width: 84px;
+    height: 119px;
+    
+    padding: 0 0 8px;
+}
+
+.related-examples a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.related-examples a:hover{
+    text-decoration: underline;
+}
+
+.dog-img1 {
+    height: 84px;
+    width: 84px;
+    background-image: url(../img/Akita.jpeg);
+    background-size: cover;
+    background-position: -20px;
+    border-radius: 10px;
+}
+
+.dog-img2 {
+    height: 84px;
+    width: 84px;
+    background-image: url(../img/samoieda.webp);
+    background-size: cover;
+    background-position: -20px;
+    border-radius: 10px;
+}
+.dog-img3 {
+    height: 84px;
+    width: 84px;
+    background-image: url(../img/shih\ tzu.jpeg);
+    background-size: cover;
+    background-position: -20px;
+    border-radius: 10px;
+}
+.dog-img4 {
+    height: 84px;
+    width: 84px;
+    background-image: url(../img/chow_chow-p.webp);
+    background-size: cover;
+    background-position: -20px;
+    border-radius: 10px;
+}
+
+
+
+.dog-legend { 
+    padding-top: 10px;
+}
+
+.ver-mais button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 372px;
+    height: 36px;
+    color: #ddd;
+    background-color: #28292A;
+    border-radius: 20px;
+    border: none;
+}
+
+.ver-mais img {
+    margin-left: 10px;
+    height: 18px;
+}
+
+.ver-mais button:hover{
+    background-color: #3c4043;
+}
